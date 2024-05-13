@@ -1,0 +1,33 @@
+/* Colors */
+:root {
+  --primary-color: #4a90e2;
+  --secondary-color: #f8f8f8;
+  --text-color: #333;
+  --border-color: #ccc;
+  --hover-color: #e5e5e5;
+  --hover-contrast-color: #2a67a5;
+  --hover-text-color: #fff;
+}
+
+/* Fonts */
+:root {
+  --font-family: 'Roboto', sans-serif;
+}
+
+.button {
+  padding: 10px 15px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  margin: 4px;
+}
+
+.button:hover {
+  background-color: var(--hover-contrast-color);
+  color: var(--hover-text-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

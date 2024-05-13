@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.module.css'
+import DropdownBar from './components/dropdownRow/DropdownRow'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <div className={styles.container}>
+        <h className={styles.heading}>Let's start making Dashboard</h>
+      </div>
+      <DropdownBar />
+    </>
+  )
 }
 
-export default App;
+export default App
