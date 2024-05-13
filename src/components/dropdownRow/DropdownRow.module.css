@@ -1,7 +1,0 @@
-.dropdownBarsContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  justify-items: center;
-  margin: 2px;
-}
